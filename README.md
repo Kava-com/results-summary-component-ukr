@@ -32,7 +32,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [Me solution URL here](https://www.frontendmentor.io/profile/Kava-com)
+- Solution URL: [My solution URL here](https://www.frontendmentor.io/profile/Kava-com)
 - Live Site URL: [Live site URL here](https://github.com/Kava-com)
 
 ## My process
