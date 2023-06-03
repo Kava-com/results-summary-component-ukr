@@ -33,7 +33,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 ### Links
 
 - Solution URL: [My solution URL here](https://www.frontendmentor.io/profile/Kava-com)
-- Live Site URL: [Live site URL here](https://github.com/Kava-com)
+- Live Site URL: [Live site URL here](https://app.netlify.com/sites/vocal-starlight-fdded5/overview)
 
 ## My process
 
