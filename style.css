@@ -1,0 +1,200 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  align-content: center;
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  box-shadow: 15px 15px 20px 0px rgba(150, 150, 150, 0.1);
+  border-radius: 1.5rem;
+
+}
+
+
+section.rating {
+  background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 1.5rem;
+  width: 50%;
+}
+
+section.summary {
+  border-radius: 1.5rem;
+}
+
+h3.score-result {
+  display: flex;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+
+}
+
+p.info {
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  color: hsl(245deg 51.33% 82.2%);
+}
+
+h3.title {
+  color: black;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+h3.score {
+  font-size: 2rem;
+  color: white;
+
+}
+
+.score-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+p.score-result {
+  font-size: 1rem;
+  color: #897cff;
+  text-align: center;
+  margin: 15px;
+}
+
+.planks {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  justify-content: space-between;
+  padding: 0.5rem;
+
+}
+
+.plank-reaction {
+  background-color: #fff6f5;
+  color: hsl(0, 100%, 67%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0.8rem;
+}
+
+.plank-memory {
+  background-color: #fffbf2;
+  color: hsl(39, 100%, 56%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0.8rem;
+}
+
+.plank-verbal {
+  background-color: #f2fbfa;
+  color: hsl(166, 100%, 37%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0.8rem;
+}
+
+.plank-visual {
+  background-color: #f3f3fd;
+  color: hsl(234, 85%, 45%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0.8rem;
+}
+
+.plank-reaction p {
+  color: #000;
+}
+
+.plank-memory p {
+  color: #000;
+}
+
+.plank-verbal p {
+  color: #000;
+}
+
+.plank-visual p {
+  color: #000;
+}
+
+
+.btn {
+  background-color: #000;
+  font-size: 1rem;
+  color: white;
+  min-width: 90%;
+  margin-top: 10%;
+  margin-bottom: auto;
+  margin-left: 5%;
+  border-radius: 1.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.attribution {
+  margin-top: 10%;
+}
+
+@media screen and (min-width: 375px) and (max-width: 1440px) {
+  body {
+    background-color: white;
+  }
+
+  .btn:hover {
+    background-color: hsla(247, 88%, 58%, 1);
+  }
+}
